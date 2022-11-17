@@ -19,7 +19,7 @@
 .intro-text{
     width: 100%;
     text-align: center;
-    padding: 100px;
+    padding: 24px 48px ;
 
     /* Glassmorphism Effect */
     backdrop-filter: blur(1.5px) saturate(125%);
@@ -31,7 +31,8 @@
 
 
 .buttonContainer{
-    margin-top: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
