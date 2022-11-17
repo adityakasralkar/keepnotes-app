@@ -19,11 +19,11 @@
 .intro-text{
     width: 100%;
     text-align: center;
-    padding: 24px 48px ;
+    padding: 24px 48px;
 
     /* Glassmorphism Effect */
-    backdrop-filter: blur(1.5px) saturate(125%);
-    -webkit-backdrop-filter: blur(1.5px) saturate(125%);
+    backdrop-filter: blur(1px) saturate(125%);
+    -webkit-backdrop-filter: blur(1px) saturate(125%);
     background-color: rgba(110, 183, 244, 0.08);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
