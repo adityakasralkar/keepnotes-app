@@ -1,0 +1,66 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../landingpage.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.title{
+    font-size: 88px;
+}
+
+.subtitle{
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.intro-text{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+
+    /* Glassmorphism Effect */
+    backdrop-filter: blur(1.5px) saturate(125%);
+    -webkit-backdrop-filter: blur(1.5px) saturate(125%);
+    background-color: rgba(110, 183, 244, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+.buttonContainer{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+.landingbutton{
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (min-width:1200px){
+    .buttonContainer{
+        padding: 0px 200px;
+    }
+
+    .title{
+        padding: 0px 100px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .title{
+        font-size: 60px;
+    }
+
+    .landingbutton{
+        width: 150px;
+        height: 50px;
+    }
+}
+
